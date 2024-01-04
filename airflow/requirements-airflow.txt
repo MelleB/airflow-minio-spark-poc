@@ -1,0 +1,12 @@
+
+pyspark==3.3.4 # Pin this to the spark version
+apache-airflow-providers-apache-spark
+
+# Since Azurite is limited in functionality, I'm switching to Minio/S3 for storage emulation
+#azure-storage-blob
+#apache-airflow-providers-microsoft-azure
+apache-airflow-providers-amazon
+boto3
+
+# For data generation
+faker
